@@ -1,0 +1,190 @@
+
+*{
+    margin: 5;
+    padding: 5;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navigation div{
+    display: inline-block;/*applies space between the link in the navigation bar*/
+    justify-content: space-evenly;/*applies space between the flexed elements an int this case the right and left classes*/
+    margin: 10px;  
+}
+
+
+
+.navigation {
+    text-align: right;
+    position: relative;
+    left: -200px;
+}
+
+li {
+    text-decoration: none;
+    
+}
+
+.profile > img{
+    background-color:#e1f0c4;
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
+    position: relative;
+    left: -100px;
+}
+
+
+.name {
+    position: relative;
+    left: -100px;
+    padding-top: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+
+.top {
+    position: relative;
+    text-align: center;
+    height: 13cm;
+}
+
+.images img{
+
+    height: 15cm;
+    width: 100%;
+    opacity: 30%;
+}
+
+.wrapper > p {
+    position: relative;
+    left: -100px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+h1 {
+    position: relative;
+    top: 90px;
+}
+/*
+.images{
+    position: absolute;
+    top: 0;
+    
+    
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-left: 100%;
+    padding-right: 100%;
+
+}*/
+
+
+.text {
+    position: absolute;
+    top: 20px;
+    left: 40%;
+}
+.left1{
+    font-family: 'Courier New', Courier, monospace;
+    height: 7cm;
+    width: 40%;
+    background-color: #e1f0c4;
+    
+}
+
+.right1{
+    font-family: 'Courier New', Courier, monospace;
+    height: 7cm;
+    width: 60%;
+    background-color: #fbfbff;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.me {
+    position: relative;
+    padding-top: 120px;
+    display: flex;
+}
+
+.hobby {
+    position: relative;
+    padding-top: 50px;
+    display: flex;
+}
+
+
+.accademicsO {
+    position: relative;
+    padding-top: 150px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    
+}
+
+th, td {
+    text-align: left;
+    padding: 10px;
+}
+
+tr:nth-child(even){
+    background-color: #e1f0c4;
+}
+
+th {
+    background-color: #e1f0c4;
+    color: white;
+}
+
+.accademicsA {
+    position: relative;
+    padding-top: 150px;
+}
+
+
+.java { 
+    grid-area: j;
+}
+
+
+.python { grid-area: cp;}
+.csharp { grid-area: cs;}
+.css{ grid-area: css;}
+.html{ grid-area: h;}
+
+.learn {
+    display: grid;
+    grid-template-areas: 'j cp cs css h '   ; 
+                         
+    grid-gap: 10px;
+    
+    padding: 200px;
+}
+
+.learn > div {
+    background-color: #e1f0c4;
+    text-align: center;
+    padding: 140px 0;
+    font-size: 30px;
+}
+
+button {
+    position: relative;
+    top: 100px;
+    width: 150px;
+    height: 40px;
+    color: white;
+    background:rgb(10, 10, 10);
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
